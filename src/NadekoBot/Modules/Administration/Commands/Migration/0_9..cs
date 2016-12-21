@@ -146,7 +146,7 @@ namespace NadekoBot.Modules.Administration.Commands.Migration
         public ServerPermissions0_9(ulong id, string name)
         {
             Id = id;
-            PermissionsControllerRole = "Nadeko";
+            PermissionsControllerRole = "DJ";
             Verbose = true;
 
             Permissions = new Permissions(name);
